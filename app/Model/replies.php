@@ -11,7 +11,7 @@ class replies extends Model
     }
 
     public function like(){
-        return $this->hasMany(likes::class)
+        return $this->hasMany(likes::class);
     }
 
     public function User(){
